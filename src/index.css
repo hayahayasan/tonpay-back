@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-image: url('/src/fafa.png'); /* 画像ファイルのパスを確認 */
+    background-size: cover; /* 画像が画面いっぱいに広がるように */
+    background-position: center center; /* 画像の位置を中央に設定 */
+    background-repeat: no-repeat; /* 画像を繰り返し表示しない */
+    height: 100vh; /* ビューポート全体の高さ */
+    margin: 0; /* デフォルトのマージンを削除 */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
